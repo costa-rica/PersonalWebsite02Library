@@ -5,7 +5,7 @@ from dotenv import load_dotenv, find_dotenv
 load_dotenv()
 print(f"- .env: {find_dotenv()}")
 print("- reading dd07modules/fsw_config/config.py")
-print(f"- FSW_CONFIG_TYPE: {os.environ.get('FSW_CONFIG_TYPE')}")
+print(f"- FLASK_CONFIG_TYPE: {os.environ.get('FLASK_CONFIG_TYPE')}")
 print(f"- FLASK_DEBUG: {os.environ.get('FLASK_DEBUG')}")
 
 

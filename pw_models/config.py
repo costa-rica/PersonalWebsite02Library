@@ -1,7 +1,7 @@
 import os
 from pw_config import ConfigDev, ConfigProd, ConfigWorkstation
 
-match os.environ.get('FSW_CONFIG_TYPE'):
+match os.environ.get('FLASK_CONFIG_TYPE'):
     case 'dev':
         config = ConfigDev()
         print('- pw_models/config: Development')
