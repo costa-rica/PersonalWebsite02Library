@@ -4,9 +4,10 @@ from dotenv import load_dotenv, find_dotenv
 
 load_dotenv()
 print(f"- .env: {find_dotenv()}")
-print("- reading dd07modules/fsw_config/config.py")
+print("- reading PersonalWebsite02Library/pw_config/config.py")
 print(f"- FLASK_CONFIG_TYPE: {os.environ.get('FLASK_CONFIG_TYPE')}")
-print(f"- FLASK_DEBUG: {os.environ.get('FLASK_DEBUG')}")
+print(f"- CONFIG_ROOT: {os.environ.get('CONFIG_ROOT')}")
+print(f"- CONFIG_FILE_NAME: {os.environ.get('CONFIG_FILE_NAME')}")
 
 
 with open(os.path.join(os.environ.get('CONFIG_ROOT'), os.environ.get('CONFIG_FILE_NAME'))) as config_json_file:

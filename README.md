@@ -1,4 +1,5 @@
 # PersonalWebsite02Library
+![nick-rodriguez.info Logo](https://nick-rodriguez.info/website_assets_favicon/logo02_whiteBck-180x112.png)
 
 This repository contains essential modules for the `PersonalWebsite02` Flask application.
 
