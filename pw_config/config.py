@@ -61,6 +61,7 @@ class ConfigBasic():
         # DIR_DATABASE
         self.DATABASE_ROOT = os.environ.get('DATABASE_ROOT')
         self.DIR_DB_UPLOAD = os.path.join(self.DATABASE_ROOT,"db_upload")
+        self.DIR_DB_DOWNLOAD = os.path.join(self.DATABASE_ROOT,"db_download")
 
         # PROJECT_RESOURCES directories
         self.PROJECT_RESOURCES_ROOT = os.environ.get('PROJECT_RESOURCES_ROOT')
