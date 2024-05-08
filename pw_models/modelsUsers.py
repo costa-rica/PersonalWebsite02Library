@@ -56,18 +56,18 @@ class BlogPosts(Base):
     __tablename__ = 'blog_posts'
     id = Column(Integer, primary_key = True)
     user_id = Column(Integer, ForeignKey("users.id"), nullable=False)
-    # post_id_name_string = Column(Text)
-    # network_post_id = Column(Text)
+    # post_id_name_string = Column(Text)# 20240508 delete
+    # network_post_id = Column(Text)# 20240508 delete
     title = Column(Text)
     description = Column(Text)
     category = Column(Text)
     # edited = Column(Text)
     post_dir_name = Column(Text)
     post_html_filename = Column(Text)# New post file name
-    # word_doc_to_html_filename = Column(Text)# <-- delete and move data to post_html_filename
-    # images_dir_name = Column(Text)
+    # word_doc_to_html_filename = Column(Text)# <-- delete and move data to post_html_filename # 20240508 delete
+    # images_dir_name = Column(Text)# 20240508 delete
     # blogpost_index_image_filename = Column(Text)
-    image_filename_for_blogpost_home = Column(Text)
+    image_filename_for_blogpost_home = Column(Text)# 20240508 replace blogpost_index_image_filename
     type_for_blogpost_home = Column(Text)
     has_images = Column(Boolean)
     has_code_snippets = Column(Boolean)
