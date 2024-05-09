@@ -68,7 +68,7 @@ class BlogPosts(Base):
     # images_dir_name = Column(Text)# 20240508 delete
     # blogpost_index_image_filename = Column(Text)
     image_filename_for_blogpost_home = Column(Text)# 20240508 replace blogpost_index_image_filename
-    type_for_blogpost_home = Column(Text)
+    type_for_blogpost_home = Column(Text)# "article" or "link"
     has_images = Column(Boolean)
     has_code_snippets = Column(Boolean)
     notes = Column(JSON)
