@@ -12,7 +12,7 @@ setup (
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/costa-rica/PersonalWebsite02Library",
-    packages=['pw_config', 'pw_models'],
+    packages=['pw_config', 'pw_models','pw_tools'],
     python_requires=">=3.10",
     classifiers=[
         "Programming Language :: Python :: 3",
